@@ -140,9 +140,9 @@ main{
 	box-sizing: border-box;
 }
 .recommend .section-top .section-top-right .key-box .key-box-left{
-	width: 37px;
-	height: 25px;
-	border: 1px solid #e2e2e2;
+	width: 35.5px;
+	height: 23px;
+	border-right: 1px solid #e2e2e2;
 	font-size: 14px;
 	color: #e2e2e2;
 	line-height: 25px;
@@ -151,13 +151,13 @@ main{
 	box-sizing: border-box;
 }
 .recommend .section-top .section-top-right .key-box .key-box-right{
-	width: 37px;
-	height: 25px;
+	width: 35.5px;
+	height: 23px;
 	font-size: 14px;
-	color: #e2e2e2;
+	color: #c8c8c8;
 	line-height: 25px;
 	text-align: center;
-	float: left;
+	float: right;
 }
 
 
@@ -166,6 +166,29 @@ main{
 	height: 300px;
 	background: green;
 }
+
+.recommend .section-bottom .box1{
+	width: 234px;
+	height: 300px;
+	background:red ;
+	float: left;
+	text-align: center;
+}
+.recommend .section-bottom .box1 img{
+	margin-top:30px;
+	
+}
+.recommend .section-bottom .box1 h3{
+	width: 234px;
+	height: 50px;
+	backgroung: yellow
+	font-size: 18px;
+	color: #656565;
+	line-height: 50px;
+}
+
+
+
 
 
 
