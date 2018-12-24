@@ -3,6 +3,7 @@
 	width: 100%;
 	height: 40px;
 	background: #333;
+	position:relative
 }
 
 .head-con {
@@ -15,6 +16,7 @@
 .head-left {
 	float: left;
 	height: 100%;
+	position: relative;
 }
 
 .head-left .text {
@@ -24,6 +26,56 @@
 	font-size: 14px;
 	color: #b3b3b3;
 
+}
+.head-left .text1 {
+	float: left;
+	height: 100%;
+	line-height: 40px;
+	font-size: 14px;
+	color: #b3b3b3;
+
+}
+.head-left .text1:hover{
+	color: #fff;
+}
+.ewm{
+	width: 124px;
+	height: 150px;
+	background: #fff;
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+	left: 470px;
+	box-shadow: 0 8px 10px rgba(0,0,0,0.15);
+	display:none
+}
+.head-left .text1:hover .ewm{
+	display: block;
+}
+.ewm .wenzi{
+	width: 124;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 0px;
+	
+	
+}
+
+.ewm img{
+	width: 90px;
+	height: 90px;
+	margin-top: 20px;
+	
+	
+	
+}
+
+	
+
+.head-left .text:hover{
+	color: #fff;
 }
 
 .head-left .line {
@@ -49,9 +101,30 @@
 	text-align: center;
 	font-size: 12px;
 	color: #8f8f8f;
+	position: relative;
+}
+.head-car:hover{
+	color: #fff;
+}
+.head-car .mysp{
+	width:316px ;
+	height: 98px;
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 98px;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	right: 0;
+	top: 40px;
+	display: none;
+}
+.head-car:hover .mysp{
+	display: block;
+	color: #4b4b4b;
 }
 
-.head-car i {
+.head-car i{
 	font-family: iconfont;
 	margin-right: 2px;
 }
@@ -69,6 +142,9 @@
 	font-size: 14px;
 	color: #b3b3b3;
 }
+.head-right .text:hover{
+	color: #fff;
+}
 
 .head-right .line {
 	float: left;
@@ -85,33 +161,263 @@
 .search {
 	width: 1226px;
 	height: 100px;
-	background: yellow;
 	margin: 0px auto;
 }
+
+.search .left {
+	height: 100%;
+	float: left;
+
+}
+
+.search .left img {
+	margin-top: 22.5px;
+
+}
+
+.search .middle {
+	height: 100px;
+	float: left;
+	margin-left: 179px;
+
+}
+
+.search .middle .text {
+	height: 100%;
+	float: left;
+	line-height: 100px;
+	color: #404040;
+	font-size: 18px;
+	margin-right: 18px;
+	text-align: center;
+}
+.search .middle .text:hover{
+	color: red;
+}
+.search .middle .text .bjh{
+	width: 1349px;
+	height: 230px;
+	background: #fff;
+	position: absolute;
+	top: 140px;
+	left: 0px;
+	box-shadow:  0 8px 10px rgba(0, 0, 0, 0.15);
+	border-top: 2px solid #f4f4f4;
+	box-sizing: border-box;
+	display: none;
+}
+.search .middle .text:nth-child(1):hover .bjh{
+	display: block;
+	
+}
+.search .middle .text .bjh .tpdh{
+	width: 1226px;
+	height: 201px;
+	margin: 0 61.5px 29px 61.5px;
+}
+.search .middle .text .bjh .tpdh .tpxh{
+	width:204px ;
+	height: 201px;
+	float: left;
+	text-align: center;
+	
+	
+}
+.search .middle .text .bjh .tpdh .tpxh img{
+	width:160px ;
+	height: 110px;
+	margin-top: 30px;
+}
+.search .middle .text .bjh .tpdh .tpxh .ljh{
+	width: 180px;
+	height: 20px;
+	margin: -30px 12px 0px 12px;
+	text-align: center;
+	
+}
+.search .middle .text .bjh .tpdh .tpxh .ljh a{
+	width: 52.67px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	font-size: 14px;
+	color: black;
+	float: left;
+	margin: 3px 75px 3px 70px;
+}
+.search .middle .text .bjh .tpdh .tpxh p{
+	width: 180px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: red;
+	font-size: 14px;
+	margin-left: 17px;
+}
+.search .middle .text .bjh .tpdh{
+	width: 1226px;
+	height: 201px;
+	margin: 0 61.5px 29px 61.5px;
+	float: left;
+}
+.search .middle .text .bjh .tpdh .tpxh{
+	width:204px ;
+	height: 201px;
+	float: left;
+	text-align: center;
+	
+	
+}
+.search .middle .text .bjh .tpdh .tpxh img{
+	width:160px ;
+	height: 110px;
+	margin-top: 30px;
+}
+.search .middle .text .bjh .tpdh .tpxh .ljh{
+	width: 180px;
+	height: 20px;
+	margin: -30px 12px 0px 12px;
+	text-align: center;
+	
+}
+.search .middle .text .bjh .tpdh .tpxh .ljh a{
+	width: 52.67px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	font-size: 14px;
+	color: black;
+	float: left;
+	margin: 3px 75px 3px 70px;
+}
+.search .middle .text .bjh .tpdh .tpxh p{
+	width: 180px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: red;
+	font-size: 14px;
+	margin-left: 17px;
+}
+
+
+.search .middle .text:nth-child(10) {
+	margin-right: 0
+}
+
+.search .right {
+	width: 300px;
+	height: 100px;
+	float: right;
+}
+
+.search .right .input {
+	width: 296px;
+	height: 50px;
+	border: 2px solid #e5e5e5;
+	float: right;
+	margin-top: 25px;
+	box-sizing: border-box;
+
+}
+
+.search .right .input .left-box {
+	float: left;
+	width: 245px;
+	height: 46px;
+	border-right: 2px solid #e5e5e5;
+	box-sizing: border-box;
+
+}
+
+.search .right .input .left-box .text-box {
+	float: left;
+	height: 18px;
+	background: #e5e5e5;
+	line-height: 18px;
+	font-size: 12px;
+	color: #7b7b7b;
+	text-align: center;
+	margin-top: 14px;
+	margin-right: 6px;
+}
+
+.search .right .input .left-box .text-box:nth-child(1) {
+	margin-left: 10px;
+	width: 50px;
+
+
+}
+
+.search .right .input .left-box .text-box:nth-child(2) {
+	width: 80px;
+
+}
+
+.search .right .input .left-box .text-box:nth-child(3) {
+	width: 85px;
+	margin-right: 5px;
+}
+
+.search .right .input .right-box {
+	width: 45px;
+	height: 46px;
+	float: right;
+	text-align: center;
+}
+
+.search .right .input .right-box i {
+	font-family: iconfont;
+	line-height: 46px;
+}
+
+
+
+
+
 
 
 
 /* 导航结束 */
 /* banner开始 */
-.section {
+.banner {
 	width: 1226px;
 	height: 460px;
-	background: #000;
 	margin: 0 auto;
 }
 
-.banner-list {
-	width: 236px;
+.banner .banner-list {
+	float: left;
+	width: 234px;
 	height: 460px;
-	background: rgba(0 0 255 1);
+	background: rgba(0, 0, 0, 0.6);
+	padding: 40px 25px 35px 30px;
+	box-sizing: border-box;
+}
+
+.banner .banner-list ul li {
+	width: 179px;
+	height: 40px;
+}
+
+.banner .banner-list ul li .left-text {
+	width: 160px;
+	height: 40px;
+	float: left;
+	font-size: 14px;
+	color: #edf2f6;
+
 
 }
 
+.banner .banner-list ul li .ico {
+	color: #cad1d7;
+	font-size: 14px;
 
-
-
-
-
+}
+.banner .banner-list ul li .ico i{
+	font-family: iconfont;
+}
 
 
 /* banner结束 */
@@ -192,8 +498,17 @@ main {
 	background: #fff;
 	margin-right: 14px;
 }
+.recommend .section-bottom .box1{
+	transform: transition: all 3s;
+	
+}
+.recommend .section-bottom .box1:hover{
+	transform: translateY(-5px); 
+	box-shadow:0  8px 10px rgba(0,0,0,0.15);
+}
 
-.recommend .section-bottom .box1 img {
+.recommend .section-bottom .box1 img{
+	transition: all 0.5s;
 	margin-top: 40px;
 
 }
