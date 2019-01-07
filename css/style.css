@@ -133,6 +133,7 @@
 .head-car:hover .mysp {
 	display: block;
 	color: #4b4b4b;
+	z-index:5;
 }
 
 .head-car i {
@@ -146,6 +147,7 @@
 	margin-right: 25px;
 }
 
+	
 .head-right .text {
 	float: left;
 	height: 100%;
@@ -174,11 +176,13 @@
 	width: 1226px;
 	height: 100px;
 	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .search .left {
 	height: 100%;
-	float: left;
 
 }
 
@@ -189,14 +193,14 @@
 
 .search .middle {
 	height: 100px;
-	float: left;
-	margin-left: 179px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 
 }
 
 .search .middle .text {
 	height: 100%;
-	float: left;
 	line-height: 100px;
 	color: #404040;
 	font-size: 18px;
@@ -236,7 +240,6 @@
 .search .middle .text .bjh .tpdh .tpxh {
 	width: 204px;
 	height: 201px;
-	float: left;
 	text-align: center;
 
 
@@ -336,91 +339,112 @@
 .search .right {
 	width: 300px;
 	height: 100px;
-	float: right;
+	display: flex;
+	align-items: center;
 }
-
-.search .right .input {
-	width: 296px;
-	height: 50px;
-	border: 2px solid #e5e5e5;
-	float: right;
-	margin-top: 25px;
-	box-sizing: border-box;
-
+.search .right .box{
+	width: 300px;
+	height: 55px;
+	display: flex;
+	position: relative;
+	
 }
-
-.search .right .input .left-box {
-	float: left;
+.search .right .box input{
+	height: 51px;
 	width: 245px;
-	height: 46px;
-	border-right: 2px solid #e5e5e5;
+	
+}
+.search .right .box .icon{
+	width: 55px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #eaeaea;
 	box-sizing: border-box;
-
+	border-left: 0 0 0;
 }
-
-.search .right .input .left-box .text-box {
-	float: left;
+.search .right .box .icon:hover{
+	background: #fe6603;
+}	
+.search .right .box .icon .iconfont{
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	color: #585858;
+}
+.search .right .box .icon .iconfont:hover{
+	color: #fff;
+}
+.search .right .box span{
+	height: 20px;
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	
+}
+.search .right .box span .dingwei{
 	height: 18px;
-	background: #e5e5e5;
-	line-height: 18px;
+	background: #ececec;
 	font-size: 12px;
-	color: #7b7b7b;
 	text-align: center;
-	margin-top: 14px;
-	margin-right: 6px;
+	line-height: 20px;
+	color: #666;
+	
+	
 }
-
-
-.search .right .input .left-box .text-box:nth-child(1) {
-	margin-left: 10px;
-	width: 50px;
-
-
+.search .right .box span .dingwei:hover{
+	background: orangered;
 }
-
-.search .right .input .left-box .text-box:hover:nth-child(1) {
-	background: red;
-	color: #F4F4F4;
-}
-
-.search .right .input .left-box .text-box:nth-child(2) {
-	width: 80px;
-
-}
-
-.search .right .input .left-box .text-box:hover:nth-child(2) {
-	background: red;
-	color: #F4F4F4;
-}
-
-.search .right .input .left-box .text-box:nth-child(3) {
-	width: 85px;
-	margin-right: 5px;
-}
-
-.search .right .input .left-box .text-box:hover:nth-child(3) {
-	background: red;
-	color: #F4F4F4;
-}
-
-.search .right .input .right-box {
-	width: 45px;
-	height: 46px;
-	float: right;
+.search .right .box span .dingwei:nth-child(1){
+	height: 18px;
+	background: #ececec;
+	font-size: 12px;
+	width: 40px;
 	text-align: center;
+	line-height: 18px;
+	color: #666;
+	
+	
 }
-
-.search .right .input .right-box:hover {
-	background: red;
-	color: #F4F4F4;
+.search .right .box span .dingwei:nth-child(1):hover{
+	background: #fe6603;
+	color: #fff;
 }
-
-.search .right .input .right-box i {
-	font-family: iconfont;
-	line-height: 46px;
+.search .right .box span .dingwei:nth-child(2){
+	height: 18px;
+	background: #ececec;
+	font-size: 12px;
+	/* text-align: center; */
+	line-height: 18px;
+	color: #666;
+	width: 72px;
+	
 }
-
-
+.search .right .box span .dingwei:nth-child(2):hover{
+	background: #fe6603;
+	color: #fff;
+}
+.search .right .box span .dingwei:nth-child(3){
+	height: 18px;
+	background: #ececec;
+	font-size: 12px;
+	/* text-align: center; */
+	line-height: 18px;
+	color: #666;
+	width: 77px;
+	
+}
+.search .right .box span .dingwei:nth-child(3):hover{
+	background: #fe6603;
+	color: #fff;
+}
 
 
 
