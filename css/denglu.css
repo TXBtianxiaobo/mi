@@ -1,0 +1,243 @@
+/* 头部开始 */
+.header{
+	width: 100vw;
+	height: 98px;
+	background: #fff;
+}
+.header .middle{
+	width: 1226px;
+	height: 98px;
+	margin: 0 auto;
+}
+.header .middle .box{
+	display: block;
+	width: 250px;
+	height: 98px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .middle .box img{
+	height: 50px;
+	width: 50px;
+}
+.header .middle .box .box1{
+	width: 180px;
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.header .middle .box .box1 h3{
+	font-size: 28px;
+	color: #000;
+	font-weight: 700;
+	letter-spacing: 14px; 
+}
+.header .middle .box .box1 span{
+	font-size: 12px;
+	color: #000;
+}
+/* 头部结束 */
+/* 内容开始 */
+.bjt{
+	height: 588px;
+	width: 100vw;
+	background-image: url(https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/af1d661322b54160a34bd319a671b6d9.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	
+}
+.bjt .box{
+	width: 410px;
+	height: 524px;
+	background: #fff;
+	position: absolute;
+	right: 120px;
+	bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+.bjt .box .top{
+	height: 82px;
+	width: 410px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bjt .box .top .zhanghao{
+	font-size: 24px;
+	color: #ff6700;
+}
+.bjt .box .top .xian{
+	height: 29px;
+	width: 2px;
+	background: #f2f2f2;
+	margin-left: 24px;
+	margin-right: 27px;
+}
+.bjt .box .top .shaoma{
+	font-size: 24px;
+	color: #000;
+}
+.bjt .box .bottom{
+	height: 226px;
+	width: 410px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bjt .box .bottom input{
+	height: 48px;
+	width: 346px;
+	padding: 13px 16px 13px 14px;
+	outline: none;
+}
+.bjt .box .bottom .denglu{
+	width: 348px;
+	height: 48px;
+	background: #ff6700;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 48px;
+}
+.bjt .box .bottom .xiaohezi{
+	width: 348px;
+	height: 19px;
+	display: flex;
+	color: #ff6700;
+	font-size: 14px;
+	justify-content: space-between;
+	align-items: center;
+}
+.bjt .box .bottom .xiaohezi .wenziyou{
+	display: block;
+	width: 115.89;
+	height: 19px;
+}
+.bjt .box .bottom .xiaohezi .wenziyou{
+	width: 138.53px;
+	height: 19px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bjt .box .bottom .xiaohezi .wenziyou a{
+	height: 19px;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	color: #999;
+}
+.bjt .box .bottom .xiaohezi .wenziyou .shuxian{
+	height: 16px;
+	width: 2px;
+	background: #f2f2f2;
+}
+.bjt .box  .qita{
+	height: 29px;
+	width: 348px;
+	color: #bbb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 120px;
+}
+.bjt .box .qita .hengxian{
+	height: 1px;
+	width: 120px;
+	background: #f2f2f2;
+}
+.bjt .box .tupian{
+	height: 36px;
+	width: 348px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	
+}
+
+.bjt .box .tupian .one{
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-image: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+	background-size: 168px 22px; 
+	background-repeat: no-repeat;
+	background-position: -30px 4px;
+	background-color: blue;
+}
+.bjt .box .tupian .two{
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-image: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+	background-size: 168px 22px; 
+	background-repeat: no-repeat;
+	background-position: -59px 4px;
+	background-color: #d32f2f;
+}
+.bjt .box .tupian .three{
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-image: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+	background-size: 168px 22px; 
+	background-repeat: no-repeat;
+	background-position: -89px 4px;
+	background-color: #0ae;
+}
+.bjt .box .tupian .four{
+	display: block;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-image: url(https://account.xiaomi.com/static/res/166d6dc/account-static/respassport/acc-2014/img/icons_type.png);
+	background-size: 129px 22px; 
+	background-repeat: no-repeat;
+	background-position: -100px 4px;
+	background-color: #00d20d;
+	
+}
+/* 内容结束 */
+/* 底部开始 */
+.footer{
+	height: 19px;
+	width: 100vw;
+	text-align: center;
+	margin-top: 160px;
+
+}
+.footer a{
+	text-align: center;
+	line-height: 19px;
+	font-size:14px ;
+	color: #333;
+	letter-spacing: 2px;
+
+}
+.dibu{
+	height: 19px;
+	width: 100vw;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-size: 14px;
+	color: #333;
+}
+.dibu a{
+	color: #333;
+}
+/* 底部结束 */
